@@ -44,3 +44,22 @@ p {
 header {
     text-align: center;
 }
+
+.emoji {
+    font-size: 1.5rem;
+    display: inline-block;
+    border-radius: 100%;
+    padding: 0.5em
+}
+
+.hand {
+    background-color: #FCEED8;
+}
+
+.goal {
+    background-color: #DEE9FC;
+}
+
+.bubble {
+    background-color: #FBE5E6;
+}
