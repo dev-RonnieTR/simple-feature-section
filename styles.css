@@ -7,7 +7,6 @@
 html {
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
-}
 
 body {
     background-image: url(images/Background_image.svg);
@@ -41,6 +40,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
+
+.feature img {
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
 }
 
 /* Typography */
