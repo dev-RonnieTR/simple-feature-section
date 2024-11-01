@@ -12,6 +12,12 @@ html {
 body {
     background-image: url(images/Background_image.svg);
     background-color: #121826;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh
 }
 
 /* Typography */
@@ -23,7 +29,6 @@ h1, h2 {
 
 h1 {
     font-size: 2.5rem;
-    
 }
 
 h2 {
@@ -34,4 +39,8 @@ p {
     color: #9DA3AE;
     font-size: 1rem;
     font-weight: 400;
+}
+
+header {
+    text-align: center;
 }
