@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5vw;
+    gap: min(5vw, 4rem);
 }
 
 header {
@@ -64,7 +64,7 @@ h1, h2 {
 
 h1 {
     font-size: 2.5rem;
-    margin-bottom: 3vw;
+    margin-bottom: min(3vw, 2rem);
 }
 
 h2 {
