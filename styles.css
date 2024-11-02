@@ -7,7 +7,7 @@
 html {
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
-    font-size: clamp(12px, 3vw, 16px);
+    font-size: clamp(14px, 1.8vw, 18px);
 }
 body {
     background-image: url(images/Background_image.svg);
@@ -98,4 +98,12 @@ header {
 
 .bubble {
     background-color: #FBE5E6;
+}
+
+  
+  /* 4K Screens */
+  @media (min-width: 2561px) {
+    body {
+        font-size: clamp(18px, 0.703vw, 24px);
+    }
 }
