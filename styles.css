@@ -106,3 +106,15 @@ header {
         font-size: clamp(18px, 0.9375vw, 24px);
     }
 }
+
+@media (min-width: 0px) {
+    body::after {
+        content: "Viewport width: " attr(data-width) "px";
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: white;
+        z-index: 1000;
+        padding: 10px;
+    }
+}
