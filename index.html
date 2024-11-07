@@ -31,12 +31,38 @@
           <p>
             Provide a comprehensive understanding of the customer experience.
           </p>
-          <img
-            src="images\photo_2.png"
-            alt="Four men discussing a topic"
-            srcset="images\photo_2.png 1x, images\photo_2@2x.png 2x"
-            loading="lazy"
-          />
+          <picture>
+            <source
+              srcset="
+                images\.avif\photo_2.avif    267w,
+                images\.avif\photo_2@2x.avif 534w
+              "
+              type="image/avif"
+              sizes="100%"
+            />
+            <source
+              srcset="
+                images\.webp\photo_2.webp    267w,
+                images\.webp\photo_2@2x.webp 534w
+              "
+              type="image/webp"
+              sizes="100%"
+            />
+            <source
+              srcset="
+                images\.avif\photo_2.png   267w,
+                images\.png\photo_2@2x.png 534w
+              "
+              type="image/png"
+              sizes="100%"
+            />
+            <img
+              src="images/photo_2.png"
+              alt="Four men discussing a topic"
+              loading="lazy"
+              width="267"
+            />
+          </picture>
         </div>
         <div class="feature">
           <p class="emoji goal">🥅</p>
@@ -45,12 +71,35 @@
             Avoid vague or open-ended questions that may not yield actionable
             insights.
           </p>
-          <img
-            src="images\photo_1.png"
-            alt="Three men having a Q&A session with their audience"
-            srcset="images\photo_1.png 1x, images\photo_1@2x.png 2x"
-            loading="lazy"
-          />
+          <picture>
+            <source
+              srcset="
+                images\.avif\photo_1.avif    267w,
+                images\.avif\photo_1@2x.avif 534w
+              "
+              type="image/avif"
+            />
+            <source
+              srcset="
+                images\.webp\photo_1.webp    267w,
+                images\.webp\photo_1@2x.webp 534w
+              "
+              type="image/webp"
+            />
+            <source
+              srcset="
+                images\.avif\photo_1.png   267w,
+                images\.png\photo_1@2x.png 534w
+              "
+              type="image/png"
+            />
+            <img
+              src="images/photo_1.png"
+              alt="Three men having a Q&A session with their audience"
+              loading="lazy"
+              width="267w"
+            />
+          </picture>
         </div>
         <div class="feature">
           <p class="emoji bubble">💬</p>
@@ -59,12 +108,35 @@
             Communicate the changes or improvements you've made in response to
             their feedback.
           </p>
-          <img
-            src="images\photo_3.png"
-            alt="Man expressing his ideas to a group of people"
-            srcset="images\photo_3.png 1x, images\photo_3@2x.png 2x"
-            loading="lazy"
-          />
+          <picture>
+            <source
+              srcset="
+                images\.avif\photo_3.avif    267w,
+                images\.avif\photo_3@2x.avif 534w
+              "
+              type="image/avif"
+            />
+            <source
+              srcset="
+                images\.webp\photo_3.webp    267w,
+                images\.webp\photo_3@2x.webp 534w
+              "
+              type="image/webp"
+            />
+            <source
+              srcset="
+                images\.avif\photo_3.png   267w,
+                images\.png\photo_3@2x.png 534w
+              "
+              type="image/png"
+            />
+            <img
+              src="images/photo_3.png"
+              alt="Man expressing his ideas to a group of people"
+              loading="lazy"
+              width="267"
+            />
+          </picture>
         </div>
       </section>
     </main>
